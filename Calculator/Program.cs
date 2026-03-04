@@ -52,7 +52,7 @@ while (true)
     {
         if (option > 5)
         {
-            Console.WriteLine("Apenas numeros abaixo de 5\n");
+            Console.WriteLine("##########\nApenas numeros abaixo de 5\n##########");
         }
         else if (option == 1)
         {
@@ -105,7 +105,7 @@ while (true)
     }
     else
     {
-        Console.WriteLine("Escreva um numero\n");
+        Console.WriteLine("##########\nEscreva um numero\n##########");
         
     }
 }

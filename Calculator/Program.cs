@@ -33,6 +33,8 @@ Uso correto de tipos de dados das variáveis 4 pts
 Boas práticas: Nomes das variáveis (PascalCase)	2 pts
 Total	10 pts 
 */
+Console.WriteLine("SEIA\n" +
+    "Joao Victor Oliveira dos Santos - RM557948\r\nMatheus Alcântara Estevão - RM558193\r\nNicolle Pellegrino Jelinski - RM558610\r\nPedro Pereira dos Santos - RM552047\r\nEric Segawa Montagner - RM558224\n");
 Console.WriteLine("Calculadora (Adição / Subtração / Multiplicação / Divisão)\n");
 
 
@@ -56,41 +58,41 @@ while (true)
         }
         else if (option == 1)
         {
-            Console.Write("Digite o primeiro número: ");
+            Console.Write("-----\nDigite o primeiro número: ");
             double num1 = double.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número: ");
             double num2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Resultado: {num1 + num2}");
+            Console.WriteLine($"Resultado: {num1 + num2}\n-----");
         }
         else if (option == 2)
         {
-            Console.Write("Digite o primeiro número: ");
+            Console.Write("-----\nDigite o primeiro número: ");
             double num1 = double.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número: ");
             double num2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Resultado: {num1 - num2}");
+            Console.WriteLine($"Resultado: {num1 - num2}\n-----");
         }
         else if (option == 3)
         {
-            Console.Write("Digite o primeiro número: ");
+            Console.Write("-----\nDigite o primeiro número: ");
             double num1 = double.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número: ");
             double num2 = double.Parse(Console.ReadLine());
-            Console.WriteLine($"Resultado: {num1 * num2}");
+            Console.WriteLine($"Resultado: {num1 * num2}\n-----");
         }
         else if (option == 4)
         {
-            Console.Write("Digite o primeiro número: ");
+            Console.Write("-----\nDigite o primeiro número: ");
             double num1 = double.Parse(Console.ReadLine());
             Console.Write("Digite o segundo número: ");
             double num2 = double.Parse(Console.ReadLine());
             if (num2 == 0)
             {
-                Console.WriteLine("Erro: Divisão por zero não permitida.");
+                Console.WriteLine("##########\nErro: Divisão por zero não permitida.##########\n");
             }
             else
             {
-                Console.WriteLine($"Resultado: {num1 / num2}");
+                Console.WriteLine($"Resultado: {num1 / num2}\n-----");
             }
         }
         else if (option == 5)
